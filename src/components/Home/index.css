@@ -1,6 +1,8 @@
-.home img {
-  padding-top: 150px;
+.ava{
   cursor: pointer;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
 }
 .mod {
   width: 661px;
@@ -16,6 +18,9 @@
 .mod img {
   padding-top: 0px;
   position: relative;
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
 }
 .mod h1 {
   color: white;

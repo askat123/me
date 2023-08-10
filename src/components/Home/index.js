@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import ava from "../../img/Avatar.png"
-import aval from "../../img/Rectangle 2.png"
+import ava from "../../img/photo_2023-08-10_18-14-31.jpg"
+import aval from "../../img/photo_2023-08-10_18-14-31.jpg"
 import "./index.css"
 
 const Home = () => {
@@ -18,7 +18,7 @@ const Home = () => {
         <div className="home">
           <center>
             <div href="" onClick={openModal} style={isModalOpen ? {display: "none"} : {display: "block"}}>
-              <img src={ava} alt="" />
+              <img src={ava} alt="" className="ava" />
               <p>click to avatar</p>
             </div>
             {isModalOpen && (
