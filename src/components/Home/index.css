@@ -1,0 +1,49 @@
+.home img {
+  padding-top: 150px;
+  cursor: pointer;
+}
+.mod {
+  width: 661px;
+  height: 605px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 16px 16px 0px 0px;
+  border: 2px solid #27ae60;
+  background: #6fcf97;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  position: relative;
+  text-align: start;
+}
+.mod img {
+  padding-top: 0px;
+  position: relative;
+}
+.mod h1 {
+  color: white;
+  padding-left: 20px;
+}
+.mod p {
+  color: aliceblue;
+  padding-left: 20px;
+}
+.mod a {
+  border-radius: 8px;
+  background: #27ae60;
+  padding: 10px 34px;
+  border: none;
+  color: aliceblue;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+.mod button {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  color: aliceblue;
+  border: none;
+  background: #27ae60;
+  cursor: pointer;
+position: absolute;
+top: 20px;
+right: 20px;
+}
